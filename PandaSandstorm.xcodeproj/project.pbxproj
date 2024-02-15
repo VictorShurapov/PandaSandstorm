@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		CEEA640B2B7EB12F004D25D9 /* PandaSandstormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA640A2B7EB12F004D25D9 /* PandaSandstormApp.swift */; };
-		CEEA640D2B7EB12F004D25D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA640C2B7EB12F004D25D9 /* ContentView.swift */; };
 		CEEA640F2B7EB133004D25D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEA640E2B7EB133004D25D9 /* Assets.xcassets */; };
 		CEEA64122B7EB133004D25D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEA64112B7EB133004D25D9 /* Preview Assets.xcassets */; };
+		CEEA64192B7EB180004D25D9 /* PandaViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA64182B7EB180004D25D9 /* PandaViewer.swift */; };
+		CEEA641B2B7EB2E2004D25D9 /* LockButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA641A2B7EB2E2004D25D9 /* LockButton.swift */; };
+		CEEA641D2B7EB303004D25D9 /* OpenFromTopButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA641C2B7EB303004D25D9 /* OpenFromTopButton.swift */; };
+		CEEA641F2B7EB329004D25D9 /* BlueButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA641E2B7EB329004D25D9 /* BlueButtonStyle.swift */; };
+		CEEA64212B7EB3FB004D25D9 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA64202B7EB3FB004D25D9 /* DetailView.swift */; };
+		CEEA64232B7EB4D7004D25D9 /* PandaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEA64222B7EB4D7004D25D9 /* PandaViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CEEA64072B7EB12F004D25D9 /* PandaSandstorm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PandaSandstorm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEA640A2B7EB12F004D25D9 /* PandaSandstormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandaSandstormApp.swift; sourceTree = "<group>"; };
-		CEEA640C2B7EB12F004D25D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEEA640E2B7EB133004D25D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEEA64112B7EB133004D25D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEEA64182B7EB180004D25D9 /* PandaViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandaViewer.swift; sourceTree = "<group>"; };
+		CEEA641A2B7EB2E2004D25D9 /* LockButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockButton.swift; sourceTree = "<group>"; };
+		CEEA641C2B7EB303004D25D9 /* OpenFromTopButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenFromTopButton.swift; sourceTree = "<group>"; };
+		CEEA641E2B7EB329004D25D9 /* BlueButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueButtonStyle.swift; sourceTree = "<group>"; };
+		CEEA64202B7EB3FB004D25D9 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		CEEA64222B7EB4D7004D25D9 /* PandaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandaViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,12 @@
 			isa = PBXGroup;
 			children = (
 				CEEA640A2B7EB12F004D25D9 /* PandaSandstormApp.swift */,
-				CEEA640C2B7EB12F004D25D9 /* ContentView.swift */,
+				CEEA64222B7EB4D7004D25D9 /* PandaViewModel.swift */,
+				CEEA64182B7EB180004D25D9 /* PandaViewer.swift */,
+				CEEA641A2B7EB2E2004D25D9 /* LockButton.swift */,
+				CEEA641C2B7EB303004D25D9 /* OpenFromTopButton.swift */,
+				CEEA64202B7EB3FB004D25D9 /* DetailView.swift */,
+				CEEA641E2B7EB329004D25D9 /* BlueButtonStyle.swift */,
 				CEEA640E2B7EB133004D25D9 /* Assets.xcassets */,
 				CEEA64102B7EB133004D25D9 /* Preview Content */,
 			);
@@ -137,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEEA640D2B7EB12F004D25D9 /* ContentView.swift in Sources */,
+				CEEA641B2B7EB2E2004D25D9 /* LockButton.swift in Sources */,
+				CEEA64212B7EB3FB004D25D9 /* DetailView.swift in Sources */,
+				CEEA641F2B7EB329004D25D9 /* BlueButtonStyle.swift in Sources */,
+				CEEA64192B7EB180004D25D9 /* PandaViewer.swift in Sources */,
+				CEEA641D2B7EB303004D25D9 /* OpenFromTopButton.swift in Sources */,
+				CEEA64232B7EB4D7004D25D9 /* PandaViewModel.swift in Sources */,
 				CEEA640B2B7EB12F004D25D9 /* PandaSandstormApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
